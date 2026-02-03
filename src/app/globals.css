@@ -6,7 +6,7 @@
   --color-brand-secondary: #4B1C8C;
   --color-brand-vivid: #5E25D9;
   --color-neon-green: #64F222;
-  
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 }
@@ -27,6 +27,7 @@ body {
   .text-glow {
     text-shadow: 0 0 10px rgba(94, 37, 217, 0.5);
   }
+
   .neon-border {
     box-shadow: 0 0 5px #64F222, 0 0 10px #64F222;
   }
