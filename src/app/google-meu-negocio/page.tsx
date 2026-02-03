@@ -29,7 +29,7 @@ export default function GoogleMyBusinessPage() {
                             Não deixe seu cliente dizer: <br />
                             <span className="text-brand-vivid">"Não achei sua empresa no Google Maps."</span>
                         </h1>
-                        <p className="text-xl text-gray-400 mb-10 max-w-2xl leading-relaxed">
+                        <p className="text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
                             96% dos brasileiros pesquisam no <strong>Google Meu Negócio</strong> antes de comprar.
                             Se sua empresa não aparece ou está com dados errados, você está entregando dinheiro para o concorrente.
                             Domine o topo das buscas locais.
@@ -53,7 +53,7 @@ export default function GoogleMyBusinessPage() {
                         <h2 className="text-3xl md:text-4xl font-bold font-outfit text-white mb-6">
                             O Custo REAL da Invisibilidade
                         </h2>
-                        <p className="text-gray-400 text-lg">
+                        <p className="text-gray-300 text-lg">
                             Dados de janeiro de 2026 da Weblish mostram que o prejuízo de ignorar o <span className="text-white font-bold">Google Empresas</span> é muito maior do que você imagina.
                         </p>
                     </div>
@@ -64,7 +64,7 @@ export default function GoogleMyBusinessPage() {
                                 <DollarSign size={32} />
                             </div>
                             <h3 className="text-xl font-bold text-white mb-2">R$ 120.000/ano</h3>
-                            <p className="text-gray-400 text-sm">
+                            <p className="text-gray-300 text-sm">
                                 Prejuízo médio de receita anual para pequenas empresas com perfis não otimizados no Google.
                             </p>
                         </div>
@@ -73,7 +73,7 @@ export default function GoogleMyBusinessPage() {
                                 <TrendingDown size={32} />
                             </div>
                             <h3 className="text-xl font-bold text-white mb-2">87% de Rejeição</h3>
-                            <p className="text-gray-400 text-sm">
+                            <p className="text-gray-300 text-sm">
                                 Dos consumidores nem sequer consideram empresas com nota média inferior a 3 estrelas.
                             </p>
                         </div>
@@ -82,7 +82,7 @@ export default function GoogleMyBusinessPage() {
                                 <AlertTriangle size={32} />
                             </div>
                             <h3 className="text-xl font-bold text-white mb-2">32% com Erros</h3>
-                            <p className="text-gray-400 text-sm">
+                            <p className="text-gray-300 text-sm">
                                 Das empresas têm horários errados, gerando frustração imediata e perda de visita física.
                             </p>
                         </div>
@@ -99,22 +99,22 @@ export default function GoogleMyBusinessPage() {
                             <div className="p-4 text-neon-green bg-neon-green/10">Perfil Focus (Bom)</div>
                         </div>
 
-                        <div className="grid grid-cols-3 border-b border-white/10 text-gray-400 hover:bg-white/5 transition-colors">
+                        <div className="grid grid-cols-3 border-b border-white/10 text-gray-300 hover:bg-white/5 transition-colors">
                             <div className="p-4 border-r border-white/10 font-medium text-white">Confiança</div>
                             <div className="p-4 border-r border-white/10">Alta desconfiança</div>
                             <div className="p-4 text-brand-primary font-bold">2,7x mais confiança</div>
                         </div>
-                        <div className="grid grid-cols-3 border-b border-white/10 text-gray-400 hover:bg-white/5 transition-colors">
+                        <div className="grid grid-cols-3 border-b border-white/10 text-gray-300 hover:bg-white/5 transition-colors">
                             <div className="p-4 border-r border-white/10 font-medium text-white">Conversão</div>
                             <div className="p-4 border-r border-white/10 text-red-400">Apenas 2,1%</div>
                             <div className="p-4 text-neon-green font-bold">Média de 6,2%</div>
                         </div>
-                        <div className="grid grid-cols-3 border-b border-white/10 text-gray-400 hover:bg-white/5 transition-colors">
+                        <div className="grid grid-cols-3 border-b border-white/10 text-gray-300 hover:bg-white/5 transition-colors">
                             <div className="p-4 border-r border-white/10 font-medium text-white">Decisão de Compra</div>
                             <div className="p-4 border-r border-white/10 text-red-400">87% de rejeição (nota baixa)</div>
                             <div className="p-4 text-white font-bold">50% mais propensos</div>
                         </div>
-                        <div className="grid grid-cols-3 text-gray-400 hover:bg-white/5 transition-colors">
+                        <div className="grid grid-cols-3 text-gray-300 hover:bg-white/5 transition-colors">
                             <div className="p-4 border-r border-white/10 font-medium text-white">Visitas ao Local</div>
                             <div className="p-4 border-r border-white/10 text-red-400">Perda de fluxo</div>
                             <div className="p-4 text-brand-primary font-bold">70% mais chances</div>
@@ -140,7 +140,7 @@ export default function GoogleMyBusinessPage() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold text-lg">Intenção Local Explosiva</h3>
-                                    <p className="text-gray-400">
+                                    <p className="text-gray-300">
                                         46% de todas as buscas têm intenção local. Saber <strong>como colocar sua empresa no Google</strong> é o primeiro passo para parar de perder vendas para o vizinho.
                                     </p>
                                 </div>
@@ -151,7 +151,7 @@ export default function GoogleMyBusinessPage() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold text-lg">Filtro de Confiança</h3>
-                                    <p className="text-gray-400">
+                                    <p className="text-gray-300">
                                         Ter um perfil otimizado torna sua empresa 2,7x mais confiável. Avaliações respondidas e fotos recentes são obrigatórias.
                                     </p>
                                 </div>
@@ -162,7 +162,7 @@ export default function GoogleMyBusinessPage() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold text-lg">Google Empresas Verificado</h3>
-                                    <p className="text-gray-400">
+                                    <p className="text-gray-300">
                                         Nós cuidamos de toda a burocracia para <strong>cadastrar sua empresa no Google</strong> e blindar sua ficha contra edições maliciosas.
                                     </p>
                                 </div>
@@ -173,7 +173,7 @@ export default function GoogleMyBusinessPage() {
                         <div className="absolute inset-0 bg-brand-vivid/20 blur-[100px] rounded-full" />
                         <div className="relative bg-[#101010] p-8 rounded-2xl border border-white/10 shadow-2xl">
                             <div className="text-center mb-8">
-                                <p className="text-gray-400 text-sm mb-2">Termos mais buscados pelos seus clientes</p>
+                                <p className="text-gray-300 text-sm mb-2">Termos mais buscados pelos seus clientes</p>
                                 <div className="flex flex-wrap justify-center gap-2">
                                     <span className="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300 border border-white/10">Google Meu Negócio</span>
                                     <span className="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300 border border-white/10">Minha Empresa no Google</span>
@@ -190,13 +190,13 @@ export default function GoogleMyBusinessPage() {
                                         <div className="h-3 w-32 bg-white/20 rounded mb-2"></div>
                                         <div className="flex gap-1">
                                             {[1, 2, 3, 4, 5].map(i => <Star key={i} size={12} className="text-yellow-400 fill-yellow-400" />)}
-                                            <span className="text-xs text-gray-500 ml-2">(4.9)</span>
+                                            <span className="text-xs text-gray-300 ml-2">(4.9)</span>
                                         </div>
                                     </div>
                                     <CheckCircle2 className="text-neon-green" />
                                 </div>
                                 <div className="flex items-center gap-4 bg-[#151515] p-4 rounded-lg border border-white/5 opacity-50">
-                                    <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-gray-400 font-bold">2</div>
+                                    <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-gray-300 font-bold">2</div>
                                     <div className="flex-1">
                                         <div className="h-3 w-24 bg-white/10 rounded mb-2"></div>
                                         <div className="flex gap-1">
@@ -206,7 +206,7 @@ export default function GoogleMyBusinessPage() {
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4 bg-[#151515] p-4 rounded-lg border border-white/5 opacity-50">
-                                    <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-gray-400 font-bold">3</div>
+                                    <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-gray-300 font-bold">3</div>
                                     <div className="flex-1">
                                         <div className="h-3 w-28 bg-white/10 rounded mb-2"></div>
                                         <div className="flex gap-1">

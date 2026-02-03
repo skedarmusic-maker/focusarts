@@ -68,6 +68,7 @@ export function Navbar() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-6 py-2 bg-brand-primary hover:bg-neon-green hover:text-black text-white rounded-full font-bold transition-all duration-300 neon-border shadow-[0_0_15px_rgba(78,15,166,0.5)] hover:shadow-[0_0_20px_#64F222]"
+                        aria-label="Fale conosco no WhatsApp"
                     >
                         Fale Conosco
                     </Link>
@@ -77,6 +78,7 @@ export function Navbar() {
                 <button
                     className="md:hidden text-white hover:text-neon-green transition-colors"
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label="Abrir menu de navegação"
                 >
                     {isOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
@@ -108,6 +110,7 @@ export function Navbar() {
                     rel="noopener noreferrer"
                     onClick={() => setIsOpen(false)}
                     className="px-8 py-3 bg-brand-primary hover:bg-neon-green hover:text-black text-white rounded-full font-bold shadow-[0_0_15px_rgba(78,15,166,0.5)]"
+                    aria-label="Fale conosco no WhatsApp"
                 >
                     Fale Conosco
                 </Link>

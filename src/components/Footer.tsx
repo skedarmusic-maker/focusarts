@@ -12,14 +12,14 @@ export function Footer() {
                             <span className="text-brand-vivid">&</span>
                             <span className="text-white">Arts</span>
                         </Link>
-                        <p className="text-gray-400 text-sm leading-relaxed">
+                        <p className="text-gray-300 text-sm leading-relaxed">
                             Agência digital focada em resultados reais. Transformamos cliques em clientes através de SEO, Design e Estratégia.
                         </p>
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold mb-4">Serviços</h4>
-                        <ul className="space-y-2 text-sm text-gray-400">
+                        <h3 className="text-white font-bold mb-4">Serviços</h3>
+                        <ul className="space-y-2 text-sm text-gray-300">
                             <li><Link href="/google-meu-negocio" className="hover:text-neon-green transition-colors">Otimização GMB</Link></li>
                             <li><Link href="/sites-estrategicos" className="hover:text-neon-green transition-colors">Criação de Sites</Link></li>
                             <li><Link href="#" className="hover:text-neon-green transition-colors">SEO Local</Link></li>
@@ -28,8 +28,8 @@ export function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold mb-4">Empresa</h4>
-                        <ul className="space-y-2 text-sm text-gray-400">
+                        <h3 className="text-white font-bold mb-4">Empresa</h3>
+                        <ul className="space-y-2 text-sm text-gray-300">
                             <li><Link href="#" className="hover:text-neon-green transition-colors">Sobre Nós</Link></li>
                             <li><Link href="#" className="hover:text-neon-green transition-colors">Cases de Sucesso</Link></li>
                             <li><Link href="#" className="hover:text-neon-green transition-colors">Blog</Link></li>
@@ -38,15 +38,15 @@ export function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold mb-4">Redes Sociais</h4>
+                        <h3 className="text-white font-bold mb-4">Redes Sociais</h3>
                         <div className="flex gap-4">
-                            <Link href="https://www.instagram.com/focus_artss/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors">
+                            <Link href="https://www.instagram.com/focus_artss/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors" aria-label="Instagram">
                                 <Instagram size={20} />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors">
+                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors" aria-label="LinkedIn">
                                 <Linkedin size={20} />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors">
+                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors" aria-label="Facebook">
                                 <Facebook size={20} />
                             </Link>
                         </div>
