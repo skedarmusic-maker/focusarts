@@ -27,7 +27,7 @@ export default function GoogleMyBusinessPage() {
                         </div>
                         <h1 className="text-5xl md:text-7xl font-bold font-outfit text-white mb-8 leading-tight">
                             Não deixe seu cliente dizer: <br />
-                            <span className="text-brand-vivid">"Não achei sua empresa no Google."</span>
+                            <span className="text-brand-vivid">"Não achei sua empresa no Google Maps."</span>
                         </h1>
                         <p className="text-xl text-gray-400 mb-10 max-w-2xl leading-relaxed">
                             96% dos brasileiros pesquisam no <strong>Google Meu Negócio</strong> antes de comprar.
@@ -141,7 +141,7 @@ export default function GoogleMyBusinessPage() {
                                 <div>
                                     <h3 className="text-white font-bold text-lg">Intenção Local Explosiva</h3>
                                     <p className="text-gray-400">
-                                        46% de todas as buscas têm intenção local (ex: "restaurante perto de mim", "mecânico centro"). Se você não aparece em "Minha empresa no Google", você não existe.
+                                        46% de todas as buscas têm intenção local. Saber <strong>como colocar sua empresa no Google</strong> é o primeiro passo para parar de perder vendas para o vizinho.
                                     </p>
                                 </div>
                             </li>
@@ -163,7 +163,7 @@ export default function GoogleMyBusinessPage() {
                                 <div>
                                     <h3 className="text-white font-bold text-lg">Google Empresas Verificado</h3>
                                     <p className="text-gray-400">
-                                        Nós cuidamos de toda a burocracia para que sua ficha "Google Meu Negócio" esteja blindada contra edições maliciosas e sempre atualizada.
+                                        Nós cuidamos de toda a burocracia para <strong>cadastrar sua empresa no Google</strong> e blindar sua ficha contra edições maliciosas.
                                     </p>
                                 </div>
                             </li>

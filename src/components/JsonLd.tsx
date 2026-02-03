@@ -35,7 +35,7 @@ export default function JsonLd() {
                     "closes": "18:00"
                 },
                 "sameAs": [
-                    "https://instagram.com/focusarts",
+                    "https://www.instagram.com/focus_artss/",
                     "https://linkedin.com/company/focusarts"
                 ],
                 "priceRange": "$$"

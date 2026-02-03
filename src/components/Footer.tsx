@@ -40,7 +40,7 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-4">Redes Sociais</h4>
                         <div className="flex gap-4">
-                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors">
+                            <Link href="https://www.instagram.com/focus_artss/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors">
                                 <Instagram size={20} />
                             </Link>
                             <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-primary transition-colors">
