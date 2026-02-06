@@ -8,12 +8,135 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Otimização Google Meu Negócio | Focus & Arts',
     description: 'Apareça no topo do Google Empresas. Otimização profissional de Perfil da Empresa no Google para aumentar vendas, ligações e visitas.',
-    keywords: ['google meu negócio', 'google empresas', 'minha empresa no google', 'google meu negocio', 'meu negócio no google']
+    keywords: ['google meu negócio', 'google empresas', 'minha empresa no google', 'google meu negocio', 'meu negócio no google', 'gestão de tráfego local', 'seo local'],
+    alternates: {
+        canonical: 'https://focusarts.com.br/google-meu-negocio',
+    },
+    openGraph: {
+        title: 'Otimização Google Meu Negócio | Focus & Arts',
+        description: 'Potencialize sua empresa no Google Maps e na Rede de Pesquisa. Aumente sua visibilidade e atraia mais clientes qualificados.',
+        url: 'https://focusarts.com.br/google-meu-negocio',
+        siteName: 'Focus & Arts',
+        locale: 'pt_BR',
+        type: 'website',
+        images: [
+            {
+                url: 'https://focusarts.com.br/logo.png', // Fallback to logo or specific OG image if available
+                width: 1200,
+                height: 630,
+                alt: 'Otimização de Perfil de Empresa no Google',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Otimização Google Meu Negócio | Focus & Arts',
+        description: 'Domine o Google Maps e seja a primeira escolha dos seus clientes.',
+        images: ['https://focusarts.com.br/logo.png'],
+    },
 };
 
 export default function GoogleMyBusinessPage() {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://focusarts.com.br"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Google Meu Negócio",
+                        "item": "https://focusarts.com.br/google-meu-negocio"
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "Otimização de Perfil Google Meu Negócio",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Focus & Arts",
+                    "url": "https://focusarts.com.br"
+                },
+                "serviceType": "SEO Local e Gestão de Google Empresas",
+                "description": "Serviço completo de otimização, recuperação e gestão de perfis no Google Business Profile para empresas locais.",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Brasil"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Serviços de Otimização",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Atualização de Dados e Horários"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Gestão de Avaliações e Respostas"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Publicação de Fotos e Produtos"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Por que minha empresa não aparece no Google Maps?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Isso geralmente ocorre por falta de verificação do perfil, informações incompletas, suspensão pelo Google ou baixa relevância local. Nossa otimização resolve esses pontos técnicos."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quanto tempo demora para ver resultados no Google Meu Negócio?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Algumas correções têm efeito imediato (como horário de funcionamento), mas o ranqueamento no topo geralmente leva de 30 a 90 dias de trabalho consistente de otimização e publicações."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "A Focus & Arts ajuda a recuperar conta suspensa?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sim, fazemos a análise da causa da suspensão e conduzimos todo o processo de pedido de restabelecimento junto ao suporte do Google."
+                        }
+                    }
+                ]
+            }
+        ]
+    };
+
     return (
         <main className="bg-[#050505] min-h-screen text-foreground selection:bg-neon-green selection:text-black">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <Navbar />
 
             {/* Hero Section SEO Heavy */}
