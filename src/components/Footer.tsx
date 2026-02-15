@@ -21,9 +21,9 @@ export function Footer() {
                         <h3 className="text-white font-bold mb-4">Serviços</h3>
                         <ul className="space-y-2 text-sm text-gray-300">
                             <li><Link href="/google-meu-negocio" className="hover:text-neon-green transition-colors">Otimização GMB</Link></li>
+                            <li><Link href="/preco-otimizacao-google-meu-negocio" className="hover:text-neon-green transition-colors">Preços Otimização GMN</Link></li>
                             <li><Link href="/sites-estrategicos" className="hover:text-neon-green transition-colors">Criação de Sites</Link></li>
                             <li><Link href="#" className="hover:text-neon-green transition-colors">SEO Local</Link></li>
-                            <li><Link href="#" className="hover:text-neon-green transition-colors">Identidade Visual</Link></li>
                         </ul>
                     </div>
 

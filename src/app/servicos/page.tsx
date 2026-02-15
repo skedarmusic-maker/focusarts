@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Services as ServicesSection } from "@/components/Services";
 import { CheckCircle2 } from "lucide-react";
+import Link from "next/link";
 
 export default function ServicesPage() {
     return (
@@ -42,6 +43,15 @@ export default function ServicesPage() {
                                     </li>
                                 ))}
                             </ul>
+
+                            <div className="mt-10">
+                                <Link
+                                    href="/preco-otimizacao-google-meu-negocio"
+                                    className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary/20 hover:bg-brand-primary text-white border border-brand-primary/50 rounded-full font-bold transition-all duration-300"
+                                >
+                                    Ver Valores de Otimização
+                                </Link>
+                            </div>
                         </div>
                         <div className="absolute inset-0 bg-brand-vivid/20 blur-[100px] rounded-full" />
                         <div className="relative bg-[#101010] border border-white/10 rounded-2xl p-8 hover:border-neon-green/50 transition-colors duration-500">

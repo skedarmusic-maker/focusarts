@@ -164,6 +164,12 @@ export default function GoogleMyBusinessPage() {
                             >
                                 Quero Otimizar Meu Perfil
                             </Link>
+                            <Link
+                                href="/preco-otimizacao-google-meu-negocio"
+                                className="px-8 py-4 bg-white/5 hover:bg-white/10 text-white font-bold rounded-full border border-white/10 transition-all duration-300 text-lg flex items-center justify-center gap-2"
+                            >
+                                Ver Preços da Otimização
+                            </Link>
                         </div>
                     </div>
                 </div>
